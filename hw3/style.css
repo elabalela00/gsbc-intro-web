@@ -1,0 +1,33 @@
+body {
+    background-color: 	#76aac2;
+}
+
+h1, h2, h3, h4,  {font-family:palatino linotype;}
+  p {font-family:brandon grotesque;}
+h   {color: black;}
+p    {color: black;}
+}
+
+h1 {
+    text-align: center;
+}
+
+.joke {
+    text-align: center;
+}
+
+#intergers {
+    text-align: left;
+    float: left;
+    font-family: brandon grotesque;
+}
+
+#largest {
+    text-align: center;
+    font-family: brandon grotesque;
+}
+
+#sum {
+    float: right;
+    font-family: brandon grotesque;
+}
