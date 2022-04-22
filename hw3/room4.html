@@ -55,13 +55,16 @@
                 <h2>Investigate the noise</h2>
       <p>You decided to investigate the rustling in the bushes. You approach the bush cautiously, maybe poking it with a stick or something. There's definitely something under there!</p>
 <div>
-      <button onclick="displayDate()">What's under the bush?</button>
+    <button onclick="myFunction()">What's under the bush?</button>
 
-    <script>
-    function displayDate() {
-    It's a bandit!;
-    }
-    </script>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "It's a bandit!";
+}
+</script>
+
   <div>
     <p>The bandit jumps out and is just about to attack you. He doesn't really seem like the strongest guy you've met...you could probably take him! Or maybe you should stay on the safe side and make a run for it?</p>
       <ul>
