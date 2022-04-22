@@ -1,20 +1,33 @@
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'URW Geometric', 'STIX Two Text', Helvetica, Arial, sans-serif;
-    font-style: normal;
+body {
+    background-color: 	#76aac2;
+}
+
+h1, h2, h3, h4,  {font-family:palatino linotype;}
+  p {font-family:brandon grotesque;}
+h   {color: black;}
+p    {color: black;}
 }
 
 h1 {
-    font-weight: bold;
     text-align: center;
 }
 
-h2 {
-    font-weight: bolder;
+.joke {
+    text-align: center;
 }
 
-body {
-    font-family: 'STIX Two Text', Georgia, 'Times New Roman', Times, serif;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 6in; */
+#intergers {
+    text-align: left;
+    float: left;
+    font-family: brandon grotesque;
+}
+
+#largest {
+    text-align: center;
+    font-family: brandon grotesque;
+}
+
+#sum {
+    float: right;
+    font-family: brandon grotesque;
 }
