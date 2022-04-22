@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-      
         <title>Ela's Website</title>
-  </head>
-  
-<!-- Tab links -->
-<div class="tab">
-    <button class="tablinks" onclick="openCity(event,'About My Design')">About My Design</button>
-    <button class="tablinks" onclick="openCity(event, 'Design Influences')">Design Influences</button>
-    <button class="tablinks" onclick="openCity(event, 'My First Program')">My First Program</button>
-</div>
-          
-<!-- Tab content -->
-<div id="About My Design" class="tabcontent">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <style>
+        h1 {text-align: center}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #76aac2;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white; 
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none
+        }
+        li a:hover {
+            background-color: cream;
+        }
+        img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+    </style>
+<body>
+    <ul>
+        <li><a class="active" href="https://elabalela00.github.io/gsbc-intro-web/index.html">Home</a></li>
+        <li><a href="https://elabalela00.github.io/gsbc-intro-web/README.md">About</a></li>
+        <li><a href="https://elabalela00.github.io/gsbc-intro-web/hw2/index.html">Homework 2</a></li>
+        <li><a href="https://elabalela00.github.io/gsbc-intro-web/hw3/index.html">Homework 3</a></li>
+    </ul>
+    
+   <h1>Ela's Website</h1>
    <h3>About My Design</h3>
    <p>The design I'm aiming for is clean and concise while also having an appealing color scheme and font style.</p>
 </div>
-                                 
-<div id="Design Influences" class="tabcontent">  
+                                  
     <h3>Design Influences</h3>
     <p><a href="https://www.musictheory.net/">musictheory.net</a></p>
     <p><a href="https://www.musictheoryacademy.com/">musictheoryacademy.com</a></p>
     <p><a href="https://lbceastbay.com/">lbceastbay.com</a></p>
 </div>
           
-<div id="My First Program" class="tabcontent">
     <h3>My First Program</h3>
     <p>This is where I'd keep my program, if I had one. It's still in progress.</p>
 </div>
+</body>
+</html>
